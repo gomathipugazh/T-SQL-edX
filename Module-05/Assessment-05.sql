@@ -1,6 +1,5 @@
 Review Question 1:
 
-
 What value will the following query return in the OrderStatus column for rows with a Status value of 2?
 
 SELECT OrderNumber, CHOOSE(Status, 'Ordered', 'Shipped', 'Delivered') AS OrderStatus
